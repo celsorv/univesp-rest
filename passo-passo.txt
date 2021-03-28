@@ -8,7 +8,7 @@ django-admin startproject univesp   [enter]
 
 django-admin startapp alunos   [enter]
 
-cd univesp_projeto   [enter]
+cd univesp   [enter]
 
 python manage.py runserver  [enter]
 
