@@ -101,12 +101,12 @@ De volta ao prompt de comandos, na pasta base do projeto:
 
 - digite o comando a seguir para preparar as migrações (alterações em models.py) para o banco de dados:
 
-python manage.py mkamigrations  [enter]
+python manage.py makemigrations  [enter]
 
 
 - digite o comando a seguir para que as migrações sejam efetivamente gravadas no banco de dados e a tabela aluno criada [no banco de dados]:
 
-python manage.py makemigrations  [enter]
+python manage.py migrate  [enter]
 
 
 Ative novamente o servidor Django:
